@@ -13,3 +13,8 @@ What we've accomplished on Day1:
 Next Stream on this project: Saturday May 1st 2021 
 Task: Complete Player header file and implementation
 
+
+### Running Program 
+1. download day-x.exe (whichever day you wanna run)
+2. in terminal, navigate to file location (using cd command)
+3. type in ./day1.exe
