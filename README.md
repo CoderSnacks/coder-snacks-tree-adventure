@@ -10,8 +10,8 @@ What we've accomplished on Day1:
 4. Tested DecisionNodes using 1 cycle with if statements and user input (main.cpp)
 
 
-Next Stream on this project: Saturday May 1st 2021 
-Task: Complete Player header file and implementation
+Next Stream on this project: Saturday May 8th 2021 
+Task: Update Game Management System
 
 
 ### Running Program 
