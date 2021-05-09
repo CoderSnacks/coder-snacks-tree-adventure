@@ -26,7 +26,7 @@ class DecisionNode {
         DecisionNode* getLeftPathPtr();
         DecisionNode* getRightPathPtr();
         DecisionNode* getForwardPathPtr();
-
+        
         //set next paths
         void setLeftPath(DecisionNode* path);
         void setRightPath(DecisionNode* path);

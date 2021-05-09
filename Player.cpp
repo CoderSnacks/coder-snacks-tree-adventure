@@ -35,9 +35,13 @@ void Player::updateCurrentDecisionNode(DecisionNode* decision){
     this->currentDecision = decision;
 }
 void Player::makeDecision(DecisionNode* decision){
+    this->currentDecision = decision;
     int healthDifference = decision->getHealthRequired() - this->health;
-    int currencyDifference = decision->getCurrencyRequired() - this->currency;
-
+    double currencyDifference = decision->getCurrencyRequired() - this->currency;
     this->health += healthDifference;
     this->currency += currencyDifference;
+}
+
+void Player::print(){
+    printf("Current Decision: %s\n Health: %d\n Currency: %f\n", this->currentDecision->getStoryLine().c_str(), this->health, this->currency);
 }

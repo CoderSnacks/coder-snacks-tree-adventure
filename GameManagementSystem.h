@@ -16,6 +16,9 @@ class GameManagementSystem {
     public:
         void initGame(bool isNewGame);
         void startGame();
+        void printDecisionPrompts();
+
+        DecisionNode* takePath(char user_decision, DecisionNode* currentNode);
 };
 
 #endif
