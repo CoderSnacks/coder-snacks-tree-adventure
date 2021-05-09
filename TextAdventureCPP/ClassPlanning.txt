@@ -1,0 +1,33 @@
+PLAYER CLASS
+- name
+- makeDecision()
+// health/currency is substracted if less than decision requirement
+Note: ArrayList<DecisionNode> Decisions (made so far);
+- health
+- currency
+
+DECISION NODE CLASS
+- data: storyline
+- prompt: states what this decision might be
+
+- healthRequirement: minimum healthNeeded to get to THIS DecisionNode
+- currencyRequirement: minimum currencyNeeded to get to THIS DecisionNode
+
+- DecisionNode: leftDecision
+- DecisionNode: rightDecision
+- DecisionNode: forwardDecision
+
+
+GAME MANAGEMENT SYSTEM
+- init game()
+- load game()
+- DecisionNode decisionTreeList{}
+
+Properties
+- Player 
+- CurrentNode
+- Game Loop()
+
+NOTES FOR Future STREAM:
+- Note: add prerequesite deiscions (the availability of options depends on prior story)
+- Note: have arraylist of nextDecisionOptions (vary the number of options)
