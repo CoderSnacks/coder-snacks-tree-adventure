@@ -27,6 +27,5 @@ Task: Add file loading/saving for trees.
 
 
 ### Running Program 
-1. g++ *.cpp day-x.exe (whichever day you wanna run)
-2. in terminal, navigate to file location (using cd command)
-3. type in ./day1.exe
+1. ~ g++ *.cpp -o day-x.exe (whichever day you wanna run)
+3. ~ ./day-x.exe
