@@ -10,8 +10,20 @@ What we've accomplished on Day1:
 4. Tested DecisionNodes using 1 cycle with if statements and user input (main.cpp)
 
 
-Next Stream on this project: Saturday May 8th 2021 
-Task: Update Game Management System
+Saturday May 1st 2021:
+1. Completed Player Class
+2. Began to build Game Management System
+3. Tried to test but ran into errors
+
+Saturday May 8th 2021:
+1. Resolved Day 2 errors
+2. Finished Game Managmeent System
+3. Added hard coded tree nodes
+4. Began customizing test storylines
+5. Tested Player health/currrency updates after decisiosn
+
+Next Stream on this project: Saturday May 15th 2021 
+Task: Add file loading/saving for trees.
 
 
 ### Running Program 
