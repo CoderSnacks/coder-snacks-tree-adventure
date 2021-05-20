@@ -1,0 +1,6 @@
+<node>
+    <healthRequired>50</healthRequired>
+    <currencyRequired>10</currencyRequired>
+    <storyline>You barely Missed the car. But Now about to be 5 minutes late</storyline>
+    <prompt>Keep Going Forward</prompt>
+</node>

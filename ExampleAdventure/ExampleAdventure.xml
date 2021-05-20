@@ -1,0 +1,17 @@
+<node filename="00_intro.xml" prompt="start" >
+	<children>
+		<node filename="01_crashed-into-tree.xml", prompt="Turn Into Park?" >
+			<children>
+				<node filename="05_found-suspicious-tire-cuts.xml" prompt="Check Bike Tires"></node>
+				<node filename="06_bike-doesnt-move.xml" prompt="Get up and go!"></node>
+				<node filename="04_mom-doesnt-pickup.xml" prompt="Call Mom"></node>
+			</children>
+		</node>
+		<node filename="02_barely-missed-car.xml" prompt="Keep Going Forward">
+			<children>
+				<node filename="03_arrived-zoom-university.xml" prompt="Pedal Faster"></node>
+				<node filename="04_mom-doesnt-pickup.xml" prompt="Call Mom"></node>
+			</children>
+		</node>
+	</children>
+</node>

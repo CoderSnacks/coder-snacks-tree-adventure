@@ -1,0 +1,6 @@
+<node>
+    <healthRequired>0</healthRequired>
+    <currencyRequired>75</currencyRequired>
+    <storyline>Mom did not return your call to pick you up. Now you're 15 minutes late.</storyline>
+    <prompt>Call Mom</prompt>
+</node>

@@ -1,0 +1,6 @@
+<node>
+    <healthRequired>-20</healthRequired>
+    <currencyRequired>30</currencyRequired>
+    <storyline>As you inspect the bike tires, you notice the vertical slashes seem man made . . .</storyline>
+    <prompt>Check Bike Tires</prompt>
+</node>

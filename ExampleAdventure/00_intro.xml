@@ -1,0 +1,6 @@
+<node>
+    <storyline>You're on a bike, going down a sidewalk. There's a park and an oncoming car!</storyline>
+    <prompt>start</prompt>
+    <healthRequired>-50</healthRequired>
+    <currencyRequired>-50</currencyRequired>
+</node>

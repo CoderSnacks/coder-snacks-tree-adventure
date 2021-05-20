@@ -1,0 +1,6 @@
+<node>
+    <healthRequired>12</healthRequired>
+    <currencyRequired>25</currencyRequired>
+    <storyline>You've made it to zoom university.</storyline>
+    <prompt>Pedal Faster</prompt>
+</node>

@@ -1,0 +1,6 @@
+<node>
+    <healthRequired>15</healthRequired>
+    <currencyRequired>10</currencyRequired>
+    <storyline>You walked into a tree!</storyline>
+    <prompt>Turn Into Park?</prompt>
+</node>
