@@ -1,17 +1,17 @@
-#include<iostream>
+#pragma once 
 
-#ifndef DECISION_NODE_H
-#define DECISION_NODE_H
+#include<iostream>
+#include<list>
 
 class DecisionNode {
     private:
-        std::string storyline;
-        std::string prompt;
+        int id;
         int healthRequired;
         double currencyRequired;
-        DecisionNode* leftPathPtr;
-        DecisionNode* rightPathPtr;
-        DecisionNode* forwardPathPtr;
+
+        std::string storyline;
+        std::string prompt;
+        std::list<DecisionNode*> childNodesList;
     public:
         //construstor
         DecisionNode(std::string storyline, std::string prompt, int healthRequired, double currencyRequired);
@@ -23,17 +23,11 @@ class DecisionNode {
         double getCurrencyRequired();
         
         //get next paths
-        DecisionNode* getLeftPathPtr();
-        DecisionNode* getRightPathPtr();
-        DecisionNode* getForwardPathPtr();
+        std::list<DecisionNode*> getPathPtrs();
         
         //set next paths
-        void setLeftPath(DecisionNode* path);
-        void setRightPath(DecisionNode* path);
-        void setForwardPath(DecisionNode* path);
+        void addPathPtr(DecisionNode* pathPtr);
 
         //print decision node
         std::string toString();
 };
-
-#endif
