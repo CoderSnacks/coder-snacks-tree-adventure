@@ -20,10 +20,15 @@ Saturday May 8th 2021:
 2. Finished Game Managmeent System
 3. Added hard coded tree nodes
 4. Began customizing test storylines
-5. Tested Player health/currrency updates after decisiosn
+5. Tested Player health/currrency updates after decisions
 
-Next Stream on this project: Saturday May 15th 2021 
-Task: Add file loading/saving for trees.
+Saturday May 15th 2021:
+1. Updated Tree Schema to have ambigious number of deicions
+2. Created sample XML files to beign I/O
+3. Decided to reference nodes by ID's and load meta data after they're selected
+
+Next Stream on this project: Saturday May 22nd 2021 
+Task: Complete the project LOL.
 
 
 ### Running Program 
